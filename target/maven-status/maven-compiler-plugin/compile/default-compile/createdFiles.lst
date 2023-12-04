@@ -1,4 +1,3 @@
-com\example\eSmartRecruit\aop\AppPointcuts.class
 com\example\eSmartRecruit\models\User.class
 com\example\eSmartRecruit\config\JwtAuthenticationFilter.class
 com\example\eSmartRecruit\config\JwtService.class
@@ -61,7 +60,6 @@ com\example\eSmartRecruit\repositories\SkillRepos.class
 com\example\eSmartRecruit\config\SecurityConfiguration.class
 com\example\eSmartRecruit\exception\FileUploadException.class
 com\example\eSmartRecruit\config\redis\RedisConfiguration.class
-com\example\eSmartRecruit\aop\LogAspect.class
 com\example\eSmartRecruit\exception\UserException.class
 com\example\eSmartRecruit\controllers\request_reponse\request\EditUserRequest$EditUserRequestBuilder.class
 com\example\eSmartRecruit\authentication\request_reponse\AuthenticationResponse.class
