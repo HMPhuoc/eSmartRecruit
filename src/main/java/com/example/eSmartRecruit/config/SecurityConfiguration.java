@@ -26,7 +26,7 @@ public class SecurityConfiguration {
         httpSecurity.csrf(csrf-> csrf.disable())
                 .authorizeHttpRequests(auth->auth
 
-                                            .requestMatchers("/eSmartRecruit/register","/eSmartRecruit/auth","/eSmartRecruit/candidate/home", "/eSmartRecruit/resetpassword","/eSmartRecruit/search/**")
+                                            .requestMatchers("/eSmartRecruit/register","/eSmartRecruit/auth","/eSmartRecruit/candidate/home","/eSmartRecruit/hello", "/eSmartRecruit/resetpassword","/eSmartRecruit/search/**")
                                             .permitAll() //let all request pass to the above URL, no authen yet
                                             .requestMatchers("/eSmartRecruit/candidate/**")
                                             .hasAnyAuthority(Role.Candidate.name())//only candidate can get access to the link above
