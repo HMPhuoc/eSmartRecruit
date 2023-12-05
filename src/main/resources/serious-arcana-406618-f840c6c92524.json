@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "serious-arcana-406618",
+  "private_key_id": "f840c6c925245c18bc6886482d4127379108cd30",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC1XbylxGcZvsP+\nL4moVJ4cvbbZm+XsI9sGC715LKKJX/P4D6wzmr2e4Ydcb4iqQ4OEYEVvk6xl3u25\ntV2PVg1Cq3M9d4coBjD1Vl2Ggi2po0GOoccrkLsXLLz5f9XRqjmN5bj6LAqAHFWs\nCQ5jelQ7nGE/rBx4VKQ+m5RYlfObqjo5H8YXL0QUmG2K3N/okLQb8vEq1Hv4vExp\n5YoSbjdEdKbHE8pk5L+nWIEtRhc+2cmBRC5vF5xvGlEMsHVACaay2JgUDEVrIWSy\nCJuU0iwxqbjzEkxJUqt8S0CDLWTKxY5XR8/8oX1ezHMqzkKILD0/+NMlOjlzomTR\n71vmm0axAgMBAAECggEABbdsUHFDVVK892W6L12+FLvUvUEmWxi6OOjlJ6JE2+hJ\nVqKafo88YNCiT+3itIh85w7obAmPNTAfSsDbr76Pm8VZqYX7SENXBwnvgrjXBZzJ\nXocyMZOrQfdoBsPaZ8m3bLCL8bQHqggP7znjLowsMYDOqTocike+BuHSfYRPHF3l\n2kZYzNtkcIWKmjSdi7EMgJjuNgo+WzmK3s0ObtBNFDLD/QntcYNrO/+27ivb9mvu\ndB8bWqDm4fPm2Kw4B/RUUmBCZBJQ5UTHV3Ki9AVcsRXYOsC8/9HGExohPtEhX9Cx\nIms2P00jN7JxQRgYAZn9ETu8azNAuqAfMHtc9g6qrQKBgQDy4OUPpLkfZ3UvuSJk\nmFw7nmoIGq4u9W7OmYg8hPKtv7KRVjIfrXwikLMpYxRljeP14O8+vCseep9MSXo6\nKuzr4cNZnXpds4PVC0p1hq8AODgZQ2BwfMtWRV6y8fQlBHjoPtsChFAPsO7FUgO9\nRurBst4jnQvEQ0N5LzPwmFrGgwKBgQC/KhoxMjM5oZ1MTykuz1NjV47sk/9BOQTG\nBelmBkP89df/EzM8fLlIWb16F23d28VYBO+Ae6kCntRlz9g+x2d3mZ0kerIsLbiA\noKxAvimxbxIItKfu+v1UCC0+QhFcaM5T/4NmQSmVEYHaMF38Y+pxB+ch2HJhdSvC\niiqne+eXuwKBgQC/HfzhTGtnrM9n2DSaF9IsD8G70tLRnMuuwt2TUcJsunXXK46R\nosAVqutwW8jHCNoitvdL1GHRwAftzbviXbjE/Ift0p9hcEsCr7nNtUer0pFCP+R5\nX5nZrwiPoxjMsDI7/onz9w3Q6xdYKetLW6yK8ycduwxxScSkbWJfpmN35QKBgDKj\nJG0Dry4E8XXVQkN0B9K4ztM8INFWGT2bM0gjQL8xIBYhL+FF6I6Rtu8wZZnvLUcz\nh32xRAO9ruWJOO7oQzAbMNUI60lokwb/iKFdvg2SLmS/9fwH4DLyN4nWVmL0IDN/\n636apDkoeg0h4sOIdAGc5kzA2QuXzg+qKcJTv/UhAoGBAMsrJkiSU+qn6Pdau1e+\nWoUsqmtyQ2KgLrJ47TSxaVdYtV42UjaBnMQmqQwoc9I+xrnTtiX5Vp/eZZs62DWZ\nF8rddYsUAxIvDysF0un8pE6zu/4VC2rskzRhgIAxzwj6wYbmYmOqeW4BJIsU67dH\njbBOCvrA1TlDXINkLeF88FhC\n-----END PRIVATE KEY-----\n",
+  "client_email": "serious-arcana-406618@appspot.gserviceaccount.com",
+  "client_id": "102337560053607095314",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/serious-arcana-406618%40appspot.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

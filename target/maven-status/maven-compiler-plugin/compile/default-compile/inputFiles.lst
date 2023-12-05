@@ -1,4 +1,3 @@
-C:\Users\huynh\OneDrive\Máy tính\nam4ki1\cloud\eSmartRecruit\eSmartRecruit\src\main\java\com\example\eSmartRecruit\aop\AppPointcuts.java
 C:\Users\huynh\OneDrive\Máy tính\nam4ki1\cloud\eSmartRecruit\eSmartRecruit\src\main\java\com\example\eSmartRecruit\services\impl\ApplicationService.java
 C:\Users\huynh\OneDrive\Máy tính\nam4ki1\cloud\eSmartRecruit\eSmartRecruit\src\main\java\com\example\eSmartRecruit\ESmartRecruitApplication.java
 C:\Users\huynh\OneDrive\Máy tính\nam4ki1\cloud\eSmartRecruit\eSmartRecruit\src\main\java\com\example\eSmartRecruit\models\enumModel\ApplicationStatus.java
@@ -11,7 +10,6 @@ C:\Users\huynh\OneDrive\Máy tính\nam4ki1\cloud\eSmartRecruit\eSmartRecruit\src
 C:\Users\huynh\OneDrive\Máy tính\nam4ki1\cloud\eSmartRecruit\eSmartRecruit\src\main\java\com\example\eSmartRecruit\controllers\request_reponse\request\EvaluateRequest.java
 C:\Users\huynh\OneDrive\Máy tính\nam4ki1\cloud\eSmartRecruit\eSmartRecruit\src\main\java\com\example\eSmartRecruit\exception\NotFoundException.java
 C:\Users\huynh\OneDrive\Máy tính\nam4ki1\cloud\eSmartRecruit\eSmartRecruit\src\main\java\com\example\eSmartRecruit\controllers\admin\AdminController.java
-C:\Users\huynh\OneDrive\Máy tính\nam4ki1\cloud\eSmartRecruit\eSmartRecruit\src\main\java\com\example\eSmartRecruit\aop\LogAspect.java
 C:\Users\huynh\OneDrive\Máy tính\nam4ki1\cloud\eSmartRecruit\eSmartRecruit\src\main\java\com\example\eSmartRecruit\models\redis\Token.java
 C:\Users\huynh\OneDrive\Máy tính\nam4ki1\cloud\eSmartRecruit\eSmartRecruit\src\main\java\com\example\eSmartRecruit\services\IInterviewSessionService.java
 C:\Users\huynh\OneDrive\Máy tính\nam4ki1\cloud\eSmartRecruit\eSmartRecruit\src\main\java\com\example\eSmartRecruit\controllers\request_reponse\request\ReportRequest.java

@@ -22,8 +22,6 @@ import jakarta.validation.Valid;
 import jdk.jshell.spi.ExecutionControl;
 import lombok.AllArgsConstructor;
 import org.json.JSONException;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -48,7 +46,7 @@ public class AdminController {
     private InterviewSessionRepos interviewSessionRepos;
     @Autowired
     private ReportService reportService;
-    private static final Logger logger = LoggerFactory.getLogger(AdminController.class);
+    //private static final Logger logger = LoggerFactory.getLogger(AdminController.class);
 
     @GetMapping("/home")
     public ResponseEntity<ResponseObject> home(HttpServletRequest request) throws JSONException, UserException {
@@ -237,7 +235,7 @@ public class AdminController {
     public ResponseEntity<ResponseObject> getUsers(HttpServletRequest request) throws JSONException {
         try {
             String authHeader = request.getHeader("Authorization");
-            logger.info("Received request to get users. Authorization header: {}", authHeader);
+            //logger.info("Received request to get users. Authorization header: {}", authHeader);
 
             ExtractUser userInfo = new ExtractUser(authHeader, userService);
             Integer userId = userInfo.getUserId();
@@ -257,10 +255,10 @@ public class AdminController {
                 dataList.add(data);
             }
 
-            logger.info("Returning user list. Total users: {}", userList.size());
+            //logger.info("Returning user list. Total users: {}", userList.size());
             return ResponseEntity.ok(ResponseObject.builder().status(ResponseObject.SUCCESS_STATUS).message(ResponseObject.LOAD_SUCCESS).data(dataList).build());
         } catch (UserException e) {
-            logger.error("Internal Server Error: {}", e.getMessage(), e);
+            //logger.error("Internal Server Error: {}", e.getMessage(), e);
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(ResponseObject.builder().status(ResponseObject.ERROR_STATUS).message(e.getMessage()).build());
         }
     }
@@ -270,7 +268,7 @@ public class AdminController {
                                               @RequestBody @Valid RegisterRequest registerRequest) {
         try {
             String authHeader = request.getHeader("Authorization");
-            logger.info("Received request to get users. Authorization header: {}", authHeader);
+            //logger.info("Received request to get users. Authorization header: {}", authHeader);
 
             ExtractUser userInfo = new ExtractUser(authHeader, userService);
             Integer userId = userInfo.getUserId();
@@ -303,7 +301,7 @@ public class AdminController {
                 return ResponseEntity.status(HttpStatus.NOT_FOUND).body(ResponseObject.builder().status(ResponseObject.ERROR_STATUS).message(ResponseObject.REPORT_NOT_FOUND).build());
             }
         } catch (Exception e) {
-            logger.error("Error in getReport", e);
+            //logger.error("Error in getReport", e);
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(ResponseObject.builder().status(ResponseObject.ERROR_STATUS).message(ResponseObject.INTERNAL_SERVER_ERROR).build());
         }
     }
