@@ -45,36 +45,37 @@ public class FileStorageService implements IStorageService {
 
     @Override
     public String storeFile(MultipartFile file) throws FileUploadException {
-        try{
-            String fileExtension = FilenameUtils.getExtension(file.getOriginalFilename());
-            String generatedFileName = UUID.randomUUID().toString().replace("-","");
-            generatedFileName = generatedFileName+"."+fileExtension;
-
-
-            if(file.isEmpty()){
-                throw new FileUploadException("File not found");
-            }
-            if(!isPDF(file)){
-                //return "Only pdf file accepted!";
-                throw new FileUploadException("Only pdf file accepted!");
-            }
-            float fileSizeInMegabytes = file.getSize()/1000000;
-            if (fileSizeInMegabytes>5){
-                throw new FileSizeLimitExceededException("Only accept file less than 5MB", file.getSize(), 5);
-            }
-
-            BlobId id = BlobId.of("cv-file-storage",generatedFileName);
-            BlobInfo info = BlobInfo.newBuilder(id).build();
-            byte[] arr = file.getBytes();
-            storage.create(info,arr);
-
-            return "https://storage.cloud.google.com/cv-file-storage/"+generatedFileName;
-        }
-        catch (IOException e){
-            throw new RuntimeException("Failed to save file!", e);
-        } catch (FileUploadException e) {
-            throw new RuntimeException(e);
-        }
+//        try{
+//            String fileExtension = FilenameUtils.getExtension(file.getOriginalFilename());
+//            String generatedFileName = UUID.randomUUID().toString().replace("-","");
+//            generatedFileName = generatedFileName+"."+fileExtension;
+//
+//
+//            if(file.isEmpty()){
+//                throw new FileUploadException("File not found");
+//            }
+//            if(!isPDF(file)){
+//                //return "Only pdf file accepted!";
+//                throw new FileUploadException("Only pdf file accepted!");
+//            }
+//            float fileSizeInMegabytes = file.getSize()/1000000;
+//            if (fileSizeInMegabytes>5){
+//                throw new FileSizeLimitExceededException("Only accept file less than 5MB", file.getSize(), 5);
+//            }
+//
+//            BlobId id = BlobId.of("cv-file-storage",generatedFileName);
+//            BlobInfo info = BlobInfo.newBuilder(id).build();
+//            byte[] arr = file.getBytes();
+//            storage.create(info,arr);
+//
+//            return "https://storage.cloud.google.com/cv-file-storage/"+generatedFileName;
+//        }
+//        catch (IOException e){
+//            throw new RuntimeException("Failed to save file!", e);
+//        } catch (FileUploadException e) {
+//            throw new RuntimeException(e);
+//        }
+        return null;
     }
 
     @Override
